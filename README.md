@@ -11,7 +11,8 @@ This project provides a simple method to create a proxy DLL using three main fil
 
 # How to Use
 
-**Step 1***
+**Step 1**  
+
 Compile dll-extractor.cpp and function-extractor.cpp.
 ```bash
 x86_64-w64-mingw32-g++ dll-extractor.cpp -o dll-extractor.exe
@@ -20,7 +21,8 @@ x86_64-w64-mingw32-g++ dll-extractor.cpp -o dll-extractor.exe
 x86_64-w64-mingw32-g++ function-extractor.cpp -o function-extractor.exe -ldbghelp
 ```
 
-***Step 2***
+**Step 2**  
+
 Transfer the compiled files to a Windows system and run them there.
 ```cmd
 dll-extractor.exe TARGET-PROCSS
@@ -29,7 +31,8 @@ dll-extractor.exe TARGET-PROCSS
 function-extractor.exe c:\PATH\example.dll
 ```
 
-***Step 3***
+**Step 3**  
+
 Copy the extracted function names to file.txt.
 ![expample file.txt](img/img1.png)
 
@@ -46,7 +49,8 @@ ren c:\PATH\example.dll c:\PATH\example1.dll
 
 Note: If the DLL path contains spaces, make sure to wrap it in double quotes `" "`.
 
-***Step 4***
+**Step 4**  
+
 Compile output.cpp using the original name DLL `example.dll` and place it next to the original DLL.
 After the process is launched,your payload will be executed.
 
