@@ -33,8 +33,8 @@ function-extractor.exe c:\PATH\example.dll
 **Step 3**  
 
 Copy the extracted function names to file.txt.  
-
-![expample file.txt](img/img1.png)
+> expample file.txt
+![](img/img1.png)
 
 renaming the target DLL(for example, by adding a letter like "1" or "2" to its name in target system).
 ```cmd
