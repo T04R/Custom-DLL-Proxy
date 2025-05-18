@@ -2,11 +2,11 @@
 
 This project provides a simple method to create a proxy DLL using three main files:
 
-- **dll-extractor.cpp**: Lists all currently loaded DLLs in a running process.
+- **dll-extractor.cpp** : Lists all currently loaded DLLs in a running process.
 
-- **function-extractor.cpp**: Extracts the exported functions from DLL.
+- **function-extractor.cpp** : Extracts the exported functions from DLL.
 
-- **maker.sh**: Adds the extracted functions into a template for creating a fake (proxy) DLL.
+- **maker.sh** : Adds the extracted functions into a template for creating a fake (proxy) DLL.
 
 
 # How to Use
