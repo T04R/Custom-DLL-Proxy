@@ -26,10 +26,10 @@ x86_64-w64-mingw32-g++ function-extractor.cpp -o function-extractor.exe -ldbghel
 Transfer the compiled files to a Windows system and run them there.
 ```cmd
 dll-extractor.exe TARGET-PROCSS
-
+```
 ```cmd
 function-extractor.exe c:\PATH\example.dll
-
+```
 **Step 3**  
 
 Copy the extracted function names to file.txt.  
@@ -52,6 +52,9 @@ Note: If the DLL path contains spaces, make sure to wrap it in double quotes `" 
 **Step 4**  
 
 Compile output.cpp using the original name DLL `example.dll` and place it next to the original DLL.
+```cmd
+x86_64-w64-mingw32-g++ -shared -o example.dll output.cpp
+```
 After the process is launched,your payload will be executed.
 
 ---
