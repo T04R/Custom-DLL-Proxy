@@ -26,10 +26,9 @@ x86_64-w64-mingw32-g++ function-extractor.cpp -o function-extractor.exe -ldbghel
 Transfer the compiled files to a Windows system and run them there.
 ```cmd
 dll-extractor.exe TARGET-PROCSS
-```
+
 ```cmd
 function-extractor.exe c:\PATH\example.dll
-```
 
 **Step 3**  
 
