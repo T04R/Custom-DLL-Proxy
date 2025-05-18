@@ -56,4 +56,4 @@ Compile output.cpp using the original name DLL `example.dll` and place it next t
 After the process is launched,your payload will be executed.
 
 ---
-You can also move the original DLL to a different folder, but make sure to define its new path correctly inside maker.sh.
+**You can also move the original DLL to a different folder, but make sure to define its new path correctly inside maker.sh.**
