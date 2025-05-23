@@ -8,6 +8,11 @@ This project provides a simple method to create a proxy DLL using three main fil
 
 - **maker.sh** : Adds the extracted functions into a template for creating a fake (proxy) DLL.
 
+# Why I Built This DLL Proxy Tool
+
+I saw that many tools perform all the steps automatically, without giving the user any real control or ability to make changes along the way.
+So I decided to build it myself.
+
 
 # How to Use
 
