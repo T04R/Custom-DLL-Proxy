@@ -1,4 +1,4 @@
-# Custom-DLL-Proxy 
+# Custom DLL Proxy 
 
 This project provides a simple method to create a proxy DLL using three main files:
 
